@@ -9,9 +9,9 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Image source={require("../assets/images/react-logo.png")} style={styles.logo}/>
+      <Image source={require("../../assets/images/react-logo.png")} style={styles.logo}/>
       <Text style={styles.textstyle}>Hello World!!</Text>
-      <Text style={styles.subtext}>My First React Native Coss Platform App</Text>
+      <Text style={styles.subtext}>My First React Native Cross Platform App</Text>
     </View>
   );
 }
@@ -26,8 +26,10 @@ const styles= StyleSheet.create({
   textstyle:{
     fontFamily:"Times New Roman",
     fontSize: 45,
+    color: 'white'
   },
   subtext:{
-    fontWeight:500
+    fontWeight:500,
+    color: 'white'
   }
 })
